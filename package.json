@@ -1,0 +1,30 @@
+{
+  "name": "godolist",
+  "version": "0.0.1",
+  "description": "TODO list web application backed by golang and front end powered by ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgeJay/godolist.git"
+  },
+  "keywords": [
+    "go",
+    "golang",
+    "reactjs",
+    "rjs",
+    "todo",
+    "progressive",
+    "web",
+    "app",
+    "pwa"
+  ],
+  "author": "Wu Huijie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdgeJay/godolist/issues"
+  },
+  "homepage": "https://github.com/EdgeJay/godolist#readme"
+}

@@ -20,7 +20,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env.GO_ENV': '"' + process.env.GO_ENV + '"'
-    })
-  ],
-  devtool: 'source-map'
+    }),
+    new webpack.optimize.UglifyJsPlugin()
+  ]
 };

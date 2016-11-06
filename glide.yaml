@@ -1,3 +1,2 @@
 package: github.com/edgejay/godolist
-import:
-- package: github.com/codegangsta/gin
+import: []

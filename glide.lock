@@ -1,6 +1,4 @@
-hash: fe749ef6092348d8a628acea1d69b85d54120043e7d9e2bc0a5babce96c9fc40
-updated: 2016-11-06T18:36:05.16278127+08:00
-imports:
-- name: github.com/codegangsta/gin
-  version: b22c90d0609970f76a5fc9901d7043d8a3db0295
+hash: b17cdb7e9802089847578845a5475111d56371795de9fd01ce72acd60ce080cc
+updated: 2016-11-06T18:40:33.898056922+08:00
+imports: []
 testImports: []

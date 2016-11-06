@@ -27,3 +27,4 @@ _testmain.go
 bin
 node_modules
 public
+vendor

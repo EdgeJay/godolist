@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 gulp.task('webpack', function () {
   var config = process.env.GO_ENV === 'production' ? require('./webpack.config.js') : require('./webpack.config.dev.js');
 
-  return gulp.src('src/client/index.js')
+  return gulp.src([])
              .pipe(webpack(config))
              .pipe(gulp.dest('public/js/'));
 });
@@ -34,7 +34,7 @@ gulp.task('webpack-dev-server', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['src/client/**/*.js'], ['webpack']);
+  gulp.watch(['client/**/*.js'], ['webpack']);
 });
 
 gulp.task('dev', ['webpack-dev-server']);

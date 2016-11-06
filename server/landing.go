@@ -15,7 +15,7 @@ func (this *GetLanding) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 
 	if len(req.URL.Path) == 1 {
 		// prepare view template
-		tmpl, err := template.ParseFiles("src/server/views/base.html")
+		tmpl, err := template.ParseFiles("templates/base.html")
 
 		if err == nil {
 			context := BaseContext{

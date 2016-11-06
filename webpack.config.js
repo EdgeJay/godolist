@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    'main': './src/client/main.js'
+    'main': './client/main.js'
   },
   output: {
     path: '/',

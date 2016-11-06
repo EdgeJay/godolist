@@ -7,5 +7,5 @@ type GetLogin struct {
 }
 
 func (this *GetLogin) ServeHTTP(w http.ResponseWriter, req *http.Request) {
-	w.Write([]byte("login"))
+	w.Write([]byte("login!!!"))
 }

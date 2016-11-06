@@ -26,7 +26,7 @@ gulp.task('webpack-dev-server', function () {
     }
 
     // Server listening
-    gutil.log("[webpack-dev-server]", "http://localhost:" + process.env.WEBPACK_DEV_SERVER_PORT + "/webpack-dev-server/js/main.js");
+    gutil.log("[webpack-dev-server]", "http://localhost:" + process.env.WEBPACK_DEV_SERVER_PORT + "/webpack-dev-server/main.js");
 
     // keep the server alive or continue?
     // callback();

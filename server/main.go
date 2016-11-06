@@ -11,5 +11,5 @@ func main() {
 	// static assets
 	http.Handle("/assets/", http.StripPrefix("/assets", http.FileServer(http.Dir("public/"))))
 
-	http.ListenAndServe(":9393", nil)
+	http.ListenAndServe("localhost:9393", nil)
 }

@@ -2,6 +2,8 @@
 
 class Main {
   constructor() {
-    console.log('testsss!456!');
+    console.log('testsss!456!!!');
   }
 }
+
+window.Main = Main;

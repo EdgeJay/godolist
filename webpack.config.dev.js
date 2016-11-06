@@ -22,5 +22,8 @@ module.exports = {
       'process.env.GO_ENV': '"' + process.env.GO_ENV + '"'
     })
   ],
-  devtool: 'source-map'
+  devtool: 'source-map',
+  devServer: {
+    inline: true
+  }
 };

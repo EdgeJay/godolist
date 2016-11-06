@@ -2,6 +2,6 @@
 
 class Main {
   constructor() {
-    console.log('testsss!123!');
+    console.log('testsss!456!');
   }
 }

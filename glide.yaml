@@ -1,2 +1,3 @@
 package: github.com/edgejay/godolist
-import: []
+import:
+- package: gopkg.in/olebedev/go-duktape.v2

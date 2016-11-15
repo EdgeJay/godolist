@@ -1,9 +1,7 @@
 'use strict';
 
-class Main {
-  constructor() {
-    console.log('testsss!456!!!');
-  }
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MainComponent from './components/MainComponent';
 
-window.Main = Main;
+ReactDOM.render(<MainComponent />, document.getElementById('main-mount'));

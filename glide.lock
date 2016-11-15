@@ -1,4 +1,6 @@
-hash: b17cdb7e9802089847578845a5475111d56371795de9fd01ce72acd60ce080cc
-updated: 2016-11-06T18:40:33.898056922+08:00
-imports: []
+hash: c9ddbf4aad70b61789ebe24d73771ab3aabb4ada8225acdd2a0c889d1e28e2ab
+updated: 2016-11-15T08:57:55.105183031+08:00
+imports:
+- name: gopkg.in/olebedev/go-duktape.v2
+  version: c8eb77ef5aa5bff7b04fa1b8e70a5a1e5eb0755a
 testImports: []

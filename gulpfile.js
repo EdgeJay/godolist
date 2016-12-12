@@ -15,7 +15,7 @@ gulp.task('webpack', function () {
              .pipe(gulp.dest('public/js/'));
 });
 
-gulp.task('webpack-dev-server', function () {
+gulp.task('webpack-dev-server', function (callback) {
   var config = process.env.GO_ENV === 'production' ? require('./webpack.config.js') : require('./webpack.config.dev.js'),
       compiler = webpacker(config);
 
@@ -26,10 +26,10 @@ gulp.task('webpack-dev-server', function () {
     }
 
     // Server listening
-    gutil.log("[webpack-dev-server]", "http://localhost:" + process.env.WEBPACK_DEV_SERVER_PORT + "/webpack-dev-server/main.js");
+    gutil.log("[webpack-dev-server]", "http://localhost:" + process.env.WEBPACK_DEV_SERVER_PORT);
 
     // keep the server alive or continue?
-    // callback();
+    callback();
   });
 });
 
@@ -37,6 +37,6 @@ gulp.task('watch', function () {
   gulp.watch(['client/**/*.js'], ['webpack']);
 });
 
-gulp.task('dev', ['webpack-dev-server']);
+gulp.task('dev', ['webpack-dev-server', 'watch']);
 
 gulp.task('default', ['webpack']);
